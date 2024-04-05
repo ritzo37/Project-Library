@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        Library
+    </div>
+
+    <div class="add-book">
+        <button class="click">Clickme</button>
+    </div>
+
+    <div class="container">
+        <div class="book-card">
+
+            <p>Author : Harry Potter</p>
+            <hr>
+            <p>Title : Pta ni Yarr</p>
+            <hr>
+            <p>Pages : 69</p>
+            <hr>
+            <div class="read-unread-btn-container">
+                <button class="read-unread-btn">Unread</button>
+            </div>
+
+        </div>
+    </div>
+    <dialog class="dialog-box">
+        <h2>Add your Book</h2>
+        <form class="dialog-form" method="dialog">
+
+            <div class="inputElements">
+
+                <label for="Author">Author</label>
+                <input name="author" type="text" id="Author">
+
+                <label for="Title">Title</label>
+                <input name="Title" type="text" id="Title">
+
+                <label for="Pages">Pages</label>
+                <input name="number" type="number" min="0" id="Pages">
+
+            </div>
+
+            <button class="submit" type="submit">Submit</button>
+            <button class="close" type="button">Close</button>
+        </form>
+    </dialog>
+</body>
+
+</html>
