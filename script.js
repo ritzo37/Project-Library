@@ -19,7 +19,7 @@ close_button.addEventListener('click', () => {
     form.reset();
 })
 
-const form = document.querySelector('.dialog-form')
+const form = document.querySelector('.dialog-form');
 
 const submit_button = document.querySelector('.submit');
 submit_button.addEventListener('click', (event) => {
@@ -40,9 +40,8 @@ function addBook (title,author,pages) {
 }
 
 function createCurrentState() {
-        const currrent_Indx = indx;
-        for (let indx = currrent_Indx ; indx<my_library.length ; indx++){
-         
+
+         const currrent_Indx = indx;         
          const Book = my_library[indx];
          const titleOfBook = Book.title ; 
          const authorOfBook = Book.author ; 
@@ -104,8 +103,6 @@ function createCurrentState() {
             parent.removeChild(remove);
        })
    
-    };
-
 }
 
 
