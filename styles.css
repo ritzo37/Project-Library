@@ -42,29 +42,53 @@ p {
     align-items: center;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    font-size: 18px;
 }
-
-.read-unread-btn-container {
+.btn-container {
+    margin-top: 10px ;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
+    gap : 20px ;
 }
 
 .read-unread-btn {
    border : none ;
    height: 40px;
    width : 100px ;
+   margin-top: 10px;
    cursor: pointer;
    border-radius: 10px;
    background-color: #ff474c;
    color : black ;
 }
 
+.click {
+   border : none ;
+   height: 40px;
+   width : 100px ;
+   margin-top: 10px;
+   cursor: pointer;
+   border-radius: 10px;
+   background-color: #0b0606;
+   color : white ;
+}
+
+.remove-btn {
+   border : none ;
+   height: 40px;
+   width : 100px ;
+   margin-top : 10px ;
+   cursor: pointer;
+   border-radius: 10px;
+   background-color: rgb(169, 77, 77);
+   color : white;
+}
+
 
 .book-card {
 
-    height: 270px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     border: 2px solid black;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
